@@ -1,0 +1,11 @@
+[
+  {
+    "id": 101,
+    "name": "Data Weaver",
+    "desc": "Acelerador de código de datos (Scala/Python).",
+    "image": "/public/dataweaver.jpeg",
+    "author": "Carlos Amos Hipolito Hernandez",
+    "category": "Proximamente",
+    "fusion": "Baymax, Kowalski, DI-Gante"
+  }
+]
