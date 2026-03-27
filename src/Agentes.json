@@ -3,15 +3,18 @@
     "id": 1,
     "name": "Feature Machine",
     "desc": "Orquestador de artefactos JIRA con calidad ONE.",
+    "desc_larga": "Conjunto de agentes Gen AI especializados en la migración de plataformas HOST, capaces de automatizar tareas complejas enfocadas en análisis funcional y técnico, traducción de código, generación de documentación y creación de matrices técnicas que permiten iterar, modificar o enriquecer reglas antes de su migración.",
     "image": "feature-machine.png",
     "author": "Miguel Angel Villagomez Garcia",
     "category": "Publicado",
     "url": "https://gemini.google.com/gem/2a565c0303bf?usp=sharing",
     "functions": [
-      "Genera artefactos JIRA automáticamente.",
-      "Valida consistencia con estándares ONE.",
-      "Corrige errores en historias y tareas.",
-      "Sugiere mejoras en definición funcional."
+      "Generación de ítems JIRA (Épicas, Features, HU, Subtasks y dependencias).",
+      "Creación de artefactos alineados a taxonomía y lineamientos ONE.",
+      "Asistente inteligente para análisis y toma de decisiones.",
+      "Clustering de componentes y procesos.",
+      "Soporte ONE for Data para científicos de datos.",
+      "Especialidades homologadas (Datahub Extended, F&R, Legacy, Intake y Analytics Transformation)."
     ],
     "outputs": [
       "Historias JIRA completas.",
@@ -27,11 +30,12 @@
     "author": "Gerardo Picazo",
     "category": "Publicado",
     "url": "https://sites.google.com/bbva.com/meya-site/inicio",
+    "desc_larga": "Agente especializado en el análisis y documentación de procesos SAS e Informatica Power Center, capaz de identificar insumos, salidas y reglas de negocio, explicar transformaciones, evaluar dependencias y generar reportes estructurados.",
     "functions": [
-      "Analiza código legado en SAS y SQL.",
-      "Traduce lógica a PySpark.",
-      "Optimiza procesos de migración.",
-      "Detecta inconsistencias en datos."
+      "Análisis técnico y funcional de procesos SAS, IPC y SQL.",
+      "Generación de diagramas de dependencias.",
+      "Construcción de matrices técnicas con reglas de negocio.",
+      "Elaboración de layouts del proceso."
     ],
     "outputs": [
       "Código PySpark optimizado.",
@@ -47,11 +51,16 @@
     "author": "Moises Solorzano Garcia",
     "category": "Publicado",
     "url": "https://notebooklm.google.com/accessrequest/8eedcb85-f58f-48c5-a25e-3bd50e2b37ab?ref=notebook",
+    "desc_larga": "Conjunto de agentes Gen AI enfocados en la migración de procesos HOST, automatizando análisis funcional y técnico, traducción de código y generación de documentación estructurada para facilitar la evolución de reglas y procesos.",
     "functions": [
-      "Interpreta lógica en sistemas Host.",
-      "Convierte procesos a PySpark.",
-      "Detecta dependencias críticas.",
-      "Optimiza flujos de datos."
+      "Análisis técnico y funcional de procesos HOST.",
+      "Generación de diagramas de dependencias.",
+      "Creación de matrices técnicas de reglas de negocio.",
+      "Elaboración de layouts del proceso.",
+      "Traducción de código a PySpark (SAS, IPC, SQL).",
+      "Generación de muestras para validación.",
+      "Renombramiento de campos Legacy a ADA.",
+      "Creación de arquetipos en Scala/PySpark/ADA."
     ],
     "outputs": [
       "Código migrado.",
@@ -63,7 +72,7 @@
     "id": 4,
     "name": "Robocop",
     "desc": "Agente para la gestión de cambios.",
-    "image": "Robocop.png",
+    "image": "robocop.jpeg",
     "author": "Irvin Ulises Gonzalez Leal",
     "category": "Publicado",
     "url": "https://gemini.google.com/gem/037eafdf065d?usp=sharing",
@@ -87,11 +96,12 @@
     "author": "Monica Avila Ochoa",
     "category": "Publicado",
     "url": "https://drive.google.com/drive/folders/1VM4R668gPF5ydzbG2fMl5E2hHOF2WV4N?usp=sharing",
+    "desc_larga": "Agente de validación enfocado en asegurar el cumplimiento de mejores prácticas de desarrollo, ayudando a productivizar engines mediante la detección de desviaciones y la sugerencia de soluciones alineadas a estándares WOW ADA.",
     "functions": [
-      "Orquesta flujos de ingesta.",
-      "Automatiza pipelines de datos.",
-      "Monitorea ejecución de procesos.",
-      "Optimiza tiempos de carga."
+      "Validación de cumplimiento de buenas prácticas WOW ADA.",
+      "Detección de desviaciones en código.",
+      "Sugerencias de mejoras funcionales.",
+      "Apoyo en la productivización de engines."
     ],
     "outputs": [
       "Pipelines automatizados.",
@@ -107,11 +117,13 @@
     "author": "Diego Gonzalez Martinez",
     "category": "Publicado",
     "url": "https://bbva-gpt.appspot.com/?assistantId=0f4b779d-2da6-4e36-a8d7-fea3e63855e2",
+    "desc_larga": "Solución de asistentes inteligentes que apoyan en la creación, validación y gestión de namings, asegurando calidad, unicidad y cumplimiento de estándares de gobernanza de datos.",
     "functions": [
-      "Genera nombres para artefactos.",
-      "Valida estándares ONE.",
-      "Sugiere convenciones consistentes.",
-      "Evita duplicidades."
+      "Creación de namings desde cero o con información base.",
+      "Validación contra el Repositorio Central de Namings (RCN).",
+      "Verificación de buenas prácticas y estructura.",
+      "Guía basada en gobernanza de datos.",
+      "Clasificación y redirección inteligente de solicitudes."
     ],
     "outputs": [
       "Nombres validados.",
@@ -128,11 +140,18 @@
     "category": "Publicado",
     "fusion": "Quiph, Pythum",
     "url": "https://gemini.google.com/gem/015700cc35c1?usp=sharing",
+    "desc_larga": "Super agente para aseguramiento de calidad (QA) y gobernanza de delegaciones, eliminando errores humanos mediante validaciones automatizadas desde documentación técnica hasta procesos de desarrollo.",
     "functions": [
-      "Automatiza procesos de ingesta.",
-      "Optimiza transformaciones.",
-      "Detecta errores en datos.",
-      "Integra múltiples fuentes."
+      "Validación automatizada de entregables (DoR y DoD).",
+      "Revisión de diccionarios y catálogos de datos.",
+      "Validación de incidencias y metadatos.",
+      "Verificación de reglas Hammurabi.",
+      "Control de calidad contra Catálogo de Datos.",
+      "Validación de linaje y estatus en BUI.",
+      "Revisión de configuración de jobs y mallas.",
+      "Validación de nomenclaturas y estructuras.",
+      "Revisión de archivos de configuración.",
+      "Asistencia inteligente con ejemplos de uso."
     ],
     "outputs": [
       "Datos procesados.",
@@ -149,11 +168,14 @@
     "category": "Publicado",
     "tag": "MANDATORY",
     "url": "https://sites.google.com/bbva.com/wall-e/inicio",
+    "desc_larga": "Agente enfocado en la automatización de procesos de ingesta, optimizando la generación de código, validación de documentación y control de cambios en esquemas.",
     "functions": [
-      "Automatiza tareas repetitivas.",
-      "Gestiona flujos de trabajo.",
-      "Reduce intervención manual.",
-      "Monitorea procesos."
+      "Generación de código Kirby y Hammurabi.",
+      "Aplicación de reglas expertas.",
+      "Validación de documentación BUI.",
+      "Generación de XML.",
+      "Control de cambios entre esquemas.",
+      "Validación de PR y buenas prácticas."
     ],
     "outputs": [
       "Procesos automatizados.",
@@ -164,17 +186,16 @@
   {
     "id": 9,
     "name": "Ixik",
-    "desc": "Construye la estructura, documentación y pruebas para tus arquetipos en Scala.",
+    "desc": "Construye la estructura, documentación y pruebas en Scala.",
     "image": "ixik.jpeg",
     "author": "Gerardo Infanzon Picazo",
     "category": "Publicado",
     "tag": "MANDATORY",
     "url": "https://sites.google.com/bbva.com/ixik-site/inicio",
+    "desc_larga": "Agente que asiste en la conversión de código entre lenguajes, analizando lógica y estructuras para generar versiones equivalentes optimizadas.",
     "functions": [
-      "Genera estructura de proyectos Scala.",
-      "Crea documentación técnica.",
-      "Genera pruebas unitarias.",
-      "Valida buenas prácticas."
+      "Traducción de código a PySpark (SAS, IPC, SQL).",
+      "Generación de muestras para validación considerando reglas de negocio."
     ],
     "outputs": [
       "Proyecto estructurado.",
@@ -191,11 +212,14 @@
     "category": "Publicado",
     "tag": "MANDATORY",
     "url": "https://sites.google.com/bbva.com/kabil-site/inicio",
+    "desc_larga": "Agente especializado en la creación de arquetipos en Scala, generando estructuras completas con clases, objetos, documentación y pruebas alineadas a buenas prácticas.",
     "functions": [
-      "Traduce código entre lenguajes.",
-      "Mantiene lógica funcional.",
-      "Optimiza sintaxis.",
-      "Reduce errores de conversión."
+      "Identificación de código traducido y estructuras.",
+      "Generación de carpetas y plantillas de schemas.",
+      "Creación de muestras de datos de entrada.",
+      "Construcción completa de arquetipos.",
+      "Validación de buenas prácticas ADA.",
+      "Ejecución de pruebas locales y de aceptación."
     ],
     "outputs": [
       "Código traducido.",

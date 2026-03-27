@@ -91,8 +91,8 @@ function Modal({ agent, onClose }) {
             <h2 style={{ margin: 0, color: "#001391", fontSize: "28px" }}>
               {agent.name}
             </h2>
-            <p style={{ margin: "6px 0", fontSize: "16px", color: "#333" }}>
-              {agent.desc}
+            <p style={{ margin: "6px 0", fontSize: "15px", color: "#333", lineHeight: "1.6" }}>
+              {agent.desc_larga || agent.desc}
             </p>
           </div>
         </div>
@@ -114,13 +114,15 @@ function Modal({ agent, onClose }) {
           ))}
         </ul>
 
-        {/* Salida */}
-        <p style={{ fontWeight: 500 }}>Salida:</p>
-        <ul style={{ paddingLeft: "20px", marginBottom: "20px" }}>
-          {agent.outputs?.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
+        {/*
+          Salida (oculto temporalmente)
+          <p style={{ fontWeight: 500 }}>Salida:</p>
+          <ul style={{ paddingLeft: "20px", marginBottom: "20px" }}>
+            {agent.outputs?.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        */}
 
         {/* Button (conditionally render only if NOT "Proximamente") */}
         {agent.category !== "Proximamente" && (
