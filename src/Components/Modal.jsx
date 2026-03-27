@@ -109,22 +109,27 @@ function Modal({ agent, onClose }) {
         {/* Qué hace */}
         <p style={{ fontWeight: 500 }}>¿Qué hace?:</p>
         <ul style={{ paddingLeft: "20px", marginBottom: "16px" }}>
-          <li>Generar, validar y corregir documentación.</li>
-          <li>Planifica fechas de instalación en base a normativa.</li>
-          <li>Resuelve tus dudas sobre el proceso de cambios.</li>
-          <li>Genera los EMAIL requeridos de voBo y Cierres de instalación.</li>
+          {agent.functions?.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
         </ul>
 
         {/* Salida */}
         <p style={{ fontWeight: 500 }}>Salida:</p>
         <ul style={{ paddingLeft: "20px", marginBottom: "20px" }}>
-          <li>Llena tu documentación requerida.</li>
-          <li>Agrega a Google Calendar tu fecha de instalación.</li>
+          {agent.outputs?.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
         </ul>
 
         {/* Button (conditionally render only if NOT "Proximamente") */}
         {agent.category !== "Proximamente" && (
           <button
+                      onClick={() => {
+              if (agent.url) {
+                window.open(agent.url, "_blank");
+              }
+            }}
             style={{
               width: "100%",
               padding: "14px",

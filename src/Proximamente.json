@@ -6,6 +6,17 @@
     "image": "dataweaver.jpeg",
     "author": "Carlos Amos Hipolito Hernandez",
     "category": "Proximamente",
-    "fusion": "Baymax, Kowalski, DI-Gante"
+    "fusion": "Baymax, Kowalski, DI-Gante",
+    "functions": [
+      "Genera código en Scala y Python para pipelines de datos.",
+      "Acelera el desarrollo de procesos ETL.",
+      "Sugiere estructuras óptimas para procesamiento distribuido.",
+      "Optimiza transformaciones y rendimiento."
+    ],
+    "outputs": [
+      "Código listo para ejecución.",
+      "Estructura de pipelines optimizada.",
+      "Recomendaciones de performance."
+    ]
   }
 ]

@@ -52,7 +52,7 @@ export default function Cards({ agents, onClick }) {
           >
 
             <img
-              src={agent.image}
+              src={`${import.meta.env.BASE_URL}${agent.image}`}
               alt={agent.name}
               style={{
                 width: "110px",
@@ -156,7 +156,7 @@ export default function Cards({ agents, onClick }) {
           >
 
             <img
-              src={agent.image}
+              src={`${import.meta.env.BASE_URL}${agent.image}`}
               alt={agent.name}
               style={{
                 width: "110px",

@@ -6,7 +6,18 @@
     "image": "feature-machine.png",
     "author": "Miguel Angel Villagomez Garcia",
     "category": "Publicado",
-    "url": "https://gemini.google.com/gem/2a565c0303bf?usp=sharing"
+    "url": "https://gemini.google.com/gem/2a565c0303bf?usp=sharing",
+    "functions": [
+      "Genera artefactos JIRA automáticamente.",
+      "Valida consistencia con estándares ONE.",
+      "Corrige errores en historias y tareas.",
+      "Sugiere mejoras en definición funcional."
+    ],
+    "outputs": [
+      "Historias JIRA completas.",
+      "Checklist de calidad.",
+      "Recomendaciones de mejora."
+    ]
   },
   {
     "id": 2,
@@ -15,7 +26,18 @@
     "image": "meya.jpeg",
     "author": "Gerardo Picazo",
     "category": "Publicado",
-    "url": "https://sites.google.com/bbva.com/meya-site/inicio"
+    "url": "https://sites.google.com/bbva.com/meya-site/inicio",
+    "functions": [
+      "Analiza código legado en SAS y SQL.",
+      "Traduce lógica a PySpark.",
+      "Optimiza procesos de migración.",
+      "Detecta inconsistencias en datos."
+    ],
+    "outputs": [
+      "Código PySpark optimizado.",
+      "Reporte de migración.",
+      "Validación de resultados."
+    ]
   },
   {
     "id": 3,
@@ -24,7 +46,18 @@
     "image": "janus.png",
     "author": "Moises Solorzano Garcia",
     "category": "Publicado",
-    "url": "https://notebooklm.google.com/accessrequest/8eedcb85-f58f-48c5-a25e-3bd50e2b37ab?ref=notebook"
+    "url": "https://notebooklm.google.com/accessrequest/8eedcb85-f58f-48c5-a25e-3bd50e2b37ab?ref=notebook",
+    "functions": [
+      "Interpreta lógica en sistemas Host.",
+      "Convierte procesos a PySpark.",
+      "Detecta dependencias críticas.",
+      "Optimiza flujos de datos."
+    ],
+    "outputs": [
+      "Código migrado.",
+      "Mapa de dependencias.",
+      "Reporte técnico."
+    ]
   },
   {
     "id": 4,
@@ -33,7 +66,18 @@
     "image": "Robocop.png",
     "author": "Irvin Ulises Gonzalez Leal",
     "category": "Publicado",
-    "url": "https://gemini.google.com/gem/037eafdf065d?usp=sharing"
+    "url": "https://gemini.google.com/gem/037eafdf065d?usp=sharing",
+    "functions": [
+      "Genera, valida y corrige documentación.",
+      "Planifica fechas de instalación.",
+      "Resuelve dudas sobre procesos de cambio.",
+      "Genera correos de VoBo y cierre."
+    ],
+    "outputs": [
+      "Documentación completa.",
+      "Eventos en calendario.",
+      "Correos automatizados."
+    ]
   },
   {
     "id": 5,
@@ -42,7 +86,18 @@
     "image": "omoikane.png",
     "author": "Monica Avila Ochoa",
     "category": "Publicado",
-    "url": "https://drive.google.com/drive/folders/1VM4R668gPF5ydzbG2fMl5E2hHOF2WV4N?usp=sharing"
+    "url": "https://drive.google.com/drive/folders/1VM4R668gPF5ydzbG2fMl5E2hHOF2WV4N?usp=sharing",
+    "functions": [
+      "Orquesta flujos de ingesta.",
+      "Automatiza pipelines de datos.",
+      "Monitorea ejecución de procesos.",
+      "Optimiza tiempos de carga."
+    ],
+    "outputs": [
+      "Pipelines automatizados.",
+      "Logs de ejecución.",
+      "Alertas de fallos."
+    ]
   },
   {
     "id": 6,
@@ -51,17 +106,39 @@
     "image": "naming-lab.png",
     "author": "Diego Gonzalez Martinez",
     "category": "Publicado",
-    "url": "https://bbva-gpt.appspot.com/?assistantId=0f4b779d-2da6-4e36-a8d7-fea3e63855e2"
+    "url": "https://bbva-gpt.appspot.com/?assistantId=0f4b779d-2da6-4e36-a8d7-fea3e63855e2",
+    "functions": [
+      "Genera nombres para artefactos.",
+      "Valida estándares ONE.",
+      "Sugiere convenciones consistentes.",
+      "Evita duplicidades."
+    ],
+    "outputs": [
+      "Nombres validados.",
+      "Guías de nomenclatura.",
+      "Recomendaciones."
+    ]
   },
   {
     "id": 7,
     "name": "BExY",
     "desc": "Automatización de ingestas y kirby.",
-    "image": "bexy.png",
+    "image": "bexy.jpeg",
     "author": "Abraham Mendoza Hernandez",
     "category": "Publicado",
     "fusion": "Quiph, Pythum",
-    "url": "https://gemini.google.com/gem/015700cc35c1?usp=sharing"
+    "url": "https://gemini.google.com/gem/015700cc35c1?usp=sharing",
+    "functions": [
+      "Automatiza procesos de ingesta.",
+      "Optimiza transformaciones.",
+      "Detecta errores en datos.",
+      "Integra múltiples fuentes."
+    ],
+    "outputs": [
+      "Datos procesados.",
+      "Alertas de inconsistencias.",
+      "Reportes de ejecución."
+    ]
   },
   {
     "id": 8,
@@ -71,7 +148,18 @@
     "author": "Tania Salazar Trujillo",
     "category": "Publicado",
     "tag": "MANDATORY",
-    "url": "https://sites.google.com/bbva.com/wall-e/inicio"
+    "url": "https://sites.google.com/bbva.com/wall-e/inicio",
+    "functions": [
+      "Automatiza tareas repetitivas.",
+      "Gestiona flujos de trabajo.",
+      "Reduce intervención manual.",
+      "Monitorea procesos."
+    ],
+    "outputs": [
+      "Procesos automatizados.",
+      "Logs de actividad.",
+      "Alertas."
+    ]
   },
   {
     "id": 9,
@@ -81,7 +169,18 @@
     "author": "Gerardo Infanzon Picazo",
     "category": "Publicado",
     "tag": "MANDATORY",
-    "url": "https://sites.google.com/bbva.com/ixik-site/inicio"
+    "url": "https://sites.google.com/bbva.com/ixik-site/inicio",
+    "functions": [
+      "Genera estructura de proyectos Scala.",
+      "Crea documentación técnica.",
+      "Genera pruebas unitarias.",
+      "Valida buenas prácticas."
+    ],
+    "outputs": [
+      "Proyecto estructurado.",
+      "Documentación completa.",
+      "Suite de pruebas."
+    ]
   },
   {
     "id": 10,
@@ -91,6 +190,17 @@
     "author": "Tania Salazar Trujillo",
     "category": "Publicado",
     "tag": "MANDATORY",
-    "url": "https://sites.google.com/bbva.com/kabil-site/inicio"
+    "url": "https://sites.google.com/bbva.com/kabil-site/inicio",
+    "functions": [
+      "Traduce código entre lenguajes.",
+      "Mantiene lógica funcional.",
+      "Optimiza sintaxis.",
+      "Reduce errores de conversión."
+    ],
+    "outputs": [
+      "Código traducido.",
+      "Reporte de equivalencias.",
+      "Sugerencias de mejora."
+    ]
   }
 ]
