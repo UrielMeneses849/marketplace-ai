@@ -91,7 +91,7 @@
   {
     "id": 5,
     "name": "Omoikane",
-    "desc": "Automatización de ingestas y kirby.",
+    "desc": "Productivización de Engines WoW ADA",
     "image": "omoikane.png",
     "author": "Monica Avila Ochoa",
     "category": "Publicado",
@@ -112,7 +112,7 @@
   {
     "id": 6,
     "name": "Naming Lab",
-    "desc": "Orquestador E2E de artefactos JIRA con calidad ONE.",
+    "desc": "Crea y valida Namings",
     "image": "naming-lab.png",
     "author": "Diego Gonzalez Martinez",
     "category": "Publicado",
@@ -134,7 +134,7 @@
   {
     "id": 7,
     "name": "BExY",
-    "desc": "Automatización de ingestas y kirby.",
+    "desc": "Agilizador integral 360 para proceso de delegaciones",
     "image": "bexy.jpeg",
     "author": "Abraham Mendoza Hernandez",
     "category": "Publicado",
