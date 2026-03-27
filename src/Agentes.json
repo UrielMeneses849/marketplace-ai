@@ -57,7 +57,7 @@
     "id": 7,
     "name": "BExY",
     "desc": "Automatización de ingestas y kirby.",
-    "image": "/bexy.png",
+    "image": "bexy.png",
     "author": "Abraham Mendoza Hernandez",
     "category": "Publicado",
     "fusion": "Quiph, Pythum",
